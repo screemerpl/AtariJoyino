@@ -7,6 +7,8 @@ Just open the sketch and flash it to arduino then connect a 9PIN DSUB male conne
 
 ### Arduino Pro Micro
 
+YOU SHOULD USE 5V/16MHZ version of the Arduino
+
 Here is a wiring for Arduino Pro Micro, you can use similar one on Leonardo
 
 ![Wiring Pro Micro](https://user-images.githubusercontent.com/45807753/125109419-3e24f080-e0db-11eb-8aec-80312689d5bd.png)
