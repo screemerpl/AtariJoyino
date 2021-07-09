@@ -13,7 +13,7 @@ Check Wiki section for Hardware and Software installation instruction
 
 Also you need additional library in your Arduino IDE from here
 
-[PacketSerialrepo](https://github.com/bakercp/PacketSerial)
+[PacketSerial](https://github.com/bakercp/PacketSerial)
 
 After installing those two components (and flashing Hoodloader2 into Arduino)
 
