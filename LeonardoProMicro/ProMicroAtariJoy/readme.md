@@ -18,8 +18,8 @@ It is also possible to use this on original UNO R2 with Atmega16U2 chip and Hood
 ```#define _UNOHOODLOADER2```
  on top of the source and then flash this to USB MCU with HoodLoader2 
  (more information in link on the bottom). Select the board as on the screenshot:
- 
- ![Hoodloader2-atmeg16](https://user-images.githubusercontent.com/45807753/125109841-c3a8a080-e0db-11eb-9655-809f64ce8670.png)
+![Hoodloader2-atmeg16](https://user-images.githubusercontent.com/45807753/125109983-f2bf1200-e0db-11eb-8d03-d39d90a5b9b0.png)
+
  
  Then the wiring as follows:
 
