@@ -25,6 +25,7 @@ Open Sketch "UnoAtariJoy-IO" and load it onto IO MCU (selecting Board "Hoodloade
 ## Wiring information
 
 ### Arduino UNO R3 with Atmega16U2
+![Uno wiring IO](https://user-images.githubusercontent.com/45807753/125113815-0620ac00-e0e1-11eb-9e41-aeb989022d53.png)
 
 
  
