@@ -15,10 +15,11 @@ Here is a wiring for Arduino Pro Micro, you can use similar one on Leonardo
 
 ### Arduino UNO R3 with Atmega16U2
 
-It is also possible to use this on original UNO R2 with Atmega16U2 chip and HoodLoader2 installed. In this case add line
+It is also possible to use this on original UNO R3 with Atmega16U2 chip and HoodLoader2 installed. In this case add line
 
 ```#define _UNOHOODLOADER2```
- on top of the source and then flash this to USB MCU with HoodLoader2 
+
+ on top of the source code and then flash this to USB MCU with HoodLoader2 
  (more information in link on the bottom). Select the board as on the screenshot:
 ![Hoodloader2-atmeg16](https://user-images.githubusercontent.com/45807753/125109983-f2bf1200-e0db-11eb-8d03-d39d90a5b9b0.png)
 
