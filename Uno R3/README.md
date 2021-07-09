@@ -18,8 +18,10 @@ Also you need additional library in your Arduino IDE from here
 After installing those two components (and flashing Hoodloader2 into Arduino)
 
 Open Sketch "UnoAtariJoy-USB" and load it onto USB MCU (selecting Board "HoodLoader2 Atmega16U2")
+![Hoodloader2-atmeg16](https://user-images.githubusercontent.com/45807753/125113911-2b151f00-e0e1-11eb-9da2-ef6dc7abd4e6.png)
 
-Open Sketch "UnoAtariJoy-IO" and load it onto IO MCU (selecting Board "Hoodloader2 UNO")
+
+Open Sketch "UnoAtariJoy-IO" and load it onto IO MCU (selecting Board "Hoodloader2 UNO" - visible on the screen)
 
 
 ## Wiring information
