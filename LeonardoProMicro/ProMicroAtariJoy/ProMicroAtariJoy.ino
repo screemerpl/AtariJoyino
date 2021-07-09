@@ -1,5 +1,5 @@
 /*
-  ProMiniAtariJoy - Atari Joystic adapter for Arduino Pro Mini / Leonardo
+  ProMicroAtariJoy - Atari Joystic adapter for Arduino Pro Mini / Leonardo
   Copyright (c) 2021, Artur Jakubowicz
 
   Simple Arduino USB adapter to connect Atari style joystick (with 2 button support for Amiga) to any
@@ -15,13 +15,23 @@
 /* support for 6 params - 2 butttons and 4 directions */
 #define JOY_PARAMS 6
 
+#ifndef _UNOHOODLOADER
+
+#define UP_PIN     2
+#define DOWN_PIN   3
+#define LEFT_PIN   4
+#define RIGHT_PIN  5
+#define B1_PIN     6
+#define B2_PIN     7
+
+#else
 #define UP_PIN     1
 #define DOWN_PIN   2
 #define LEFT_PIN   3
 #define RIGHT_PIN  4
 #define B1_PIN     5
 #define B2_PIN     6
-
+#endif
 uint8_t  pins[JOY_PARAMS]={B1_PIN, B2_PIN, UP_PIN, DOWN_PIN, LEFT_PIN, RIGHT_PIN};
 
 /* Positions of data in buffer */
@@ -30,7 +40,7 @@ uint8_t  pins[JOY_PARAMS]={B1_PIN, B2_PIN, UP_PIN, DOWN_PIN, LEFT_PIN, RIGHT_PIN
 #define JOY_UP 2
 #define JOY_DOWN 3
 #define JOY_LEFT 4
-#define JOY_RIGHT 5co
+#define JOY_RIGHT 5
 
 unsigned char joystate[JOY_PARAMS]={0,0,0,0,0,0};
 unsigned char prevstate[JOY_PARAMS]={0,0,0,0,0,0};
