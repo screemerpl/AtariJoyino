@@ -25,6 +25,7 @@ It is also possible to use this on original UNO R2 with Atmega16U2 chip and Hood
  
  Then the wiring as follows:
 
+![Uno wiring Hood](https://user-images.githubusercontent.com/45807753/125111701-20a55600-e0de-11eb-8e55-cf37d450e156.png)
 
 
 As the code works on USB MCU you can remove Atmega328P from the socket :)
