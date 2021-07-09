@@ -1,5 +1,8 @@
 # AtariJoyino
 
+> WARNING !! If you use Arduino UNO make sure its a proper clone with Atmega16U2 as USB controller. None of this will work on cheap clones.
+> You will not even be able to flash HoodLoader2 (as it requires AtMega16U2 or similar)
+
 This is the smallest possible Atari Joystick interface to USB using Arduino (Uno R3 or Pro Micro).
 It uses standard HID interface for USB available in Leonardo and Pro Micro or HoodLoader2 on UNO
 
